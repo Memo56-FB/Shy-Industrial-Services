@@ -27,7 +27,9 @@ body{
     --brown:#240D14;
     --menuColor:radial-gradient(circle, #e76a2f, #c13d57, #7d3164, #352950, #061525);
 }
-
+title{
+    display: none;
+}
 a{
     text-decoration: none;
     color: inherit;
@@ -166,7 +168,7 @@ main{
 
 /* SECCION DE FABRICACIÓN DE EQUIPOS... */
 .fabricacion{
-    background-color: var(--blue);
+    background-color: var(--justWhite);
     height: auto;
     width: 100%;
     padding-top: 40px;
@@ -176,7 +178,7 @@ main{
     align-items: center;
 }
 .fabricacion h2{
-    color: var(--justWhite);
+    /* color: var(--justWhite); */
 }
 .fabricacion__cards-container{
     display: flex;
@@ -198,7 +200,7 @@ main{
 .fabricacion__cards{
     flex:0 1 320px;
     height: 360px;
-    background-color: var(--warmBrown);
+    background-color: var(--warmGrey);
     color: var(--justWhite);
     max-width: 360px;
     min-width: 320px;
