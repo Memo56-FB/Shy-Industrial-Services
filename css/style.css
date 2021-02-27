@@ -101,8 +101,41 @@ header nav ul{
 /* MAIN */
 main{
     width: 100%;
-    margin-top:80px ;
+    /* margin-top:80px ; */
 }
+/* SECCION DE LA PRESENTACION DE LA EMPRESA CON IMAGEN */
+.shy{
+    text-align: center;
+    color: var(--justWhite);
+    background-image: url("../assets/img/soldar-large.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top:220px;
+}
+.shy h1{
+    font-size: 4.2rem;
+    font-style: italic;
+    text-shadow: -.5px -.5px .5px #000, .5px .5px .5px #000, -.5px .5px .5px #000, .5px -.5px .5px #000;
+}
+.shy p{
+    text-shadow: -.5px -.5px .5px #000, .5px .5px .5px #000, -.5px .5px .5px #000, .5px -.5px .5px #000;
+    font-size: 1.8rem;
+}
+.shy p:first-of-type{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* SECCIÓN DE MAQUINADOS  */
@@ -168,7 +201,7 @@ main{
 
 /* SECCION DE FABRICACIÓN DE EQUIPOS... */
 .fabricacion{
-    background-color: var(--justWhite);
+    background-color: #ffffe3;
     height: auto;
     width: 100%;
     padding-top: 40px;
@@ -198,12 +231,10 @@ main{
 }
 
 .fabricacion__cards{
-    flex:0 1 320px;
+    flex:0 1 240px;
     height: 360px;
     background-color: var(--warmGrey);
     color: var(--justWhite);
-    max-width: 360px;
-    min-width: 320px;
     margin: 20px;
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -237,5 +268,7 @@ main{
 @media(max-width:1100px){
     .fabricacion h1{
         font-size: 2.2rem;
+        
+        
     }
 }
