@@ -107,7 +107,6 @@ main{
 .shy{
     text-align: center;
     color: var(--justWhite);
-    background-image: url("../assets/img/soldar-large.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -116,6 +115,18 @@ main{
     padding-bottom: 120px;
     background-position: center;
 }
+.f1{
+    background-image: url("../assets/img/soldar2-large.jpg");
+}
+
+.f2{
+    background-image: url("../assets/img/soldar-large.jpg"); 
+}
+
+.f3{
+    background-image: url("../assets/img/soldar3-large.jpg");
+}
+
 .shy h1{
     font-size: 4.2rem;
     font-style: italic;
