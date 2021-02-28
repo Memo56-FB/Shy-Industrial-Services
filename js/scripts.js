@@ -32,7 +32,7 @@ btn.onclick = ()=>{
 const contact = document.getElementById('contact')
 const socialMedia = document.getElementById('socialMedia')
 const svg = document.getElementById('svg')
-contact.onclick = ()=>{
+svg.onclick = ()=>{
     if(contact.classList.contains('animation-down-contact') && socialMedia.classList.contains('animation-down-contact')){
         contact.classList.replace('animation-down-contact' , 'animation-up-contact')
         socialMedia.classList.replace('animation-down-contact' , 'animation-up-contact')
