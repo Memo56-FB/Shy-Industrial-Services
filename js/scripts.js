@@ -27,3 +27,20 @@ btn.onclick = ()=>{
             shy.classList.replace('f3','f1')
         }
 }
+
+// SCRIPT PARA LAS REDES SOCIALES
+const contact = document.getElementById('contact')
+const socialMedia = document.getElementById('socialMedia')
+const svg = document.getElementById('svg')
+contact.onclick = ()=>{
+    if(contact.classList.contains('animation-down-contact') && socialMedia.classList.contains('animation-down-contact')){
+        contact.classList.replace('animation-down-contact' , 'animation-up-contact')
+        socialMedia.classList.replace('animation-down-contact' , 'animation-up-contact')
+        svg.classList.replace('initial' , 'rotate')
+
+    }else{
+        contact.classList.replace('animation-up-contact' , 'animation-down-contact')
+        socialMedia.classList.replace('animation-up-contact' , 'animation-down-contact')
+        svg.classList.replace('rotate' , 'initial' )
+    }
+}
