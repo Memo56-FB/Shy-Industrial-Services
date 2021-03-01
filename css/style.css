@@ -108,7 +108,7 @@ svg{
 
 /* PARTE DERECHA DONDE ESTA LA IMAGEN Y EL ESLOGAN DE LA EMPRESA */
 header{
-    background-color: var(--grey);
+    background-color: var(--warmGrey);
     color: var(--justWhite);
     display: flex;
     flex-wrap: wrap;
@@ -345,8 +345,8 @@ main{
     flex:0 0 500px;
     display: grid;
     padding: 10px;
-    grid-template-columns: auto 100px;
-    grid-template-rows:130px auto;
+    grid-template-columns: auto auto;
+    grid-template-rows:auto auto;
     width: 50%;
     align-items: center;
     background-color: rgba(162,172,189, 0.75) ;
@@ -354,6 +354,7 @@ main{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     height:auto;
     margin: 5px;
+    justify-items: center;
 }
 
 .disennio__card a>p{
@@ -362,9 +363,7 @@ main{
 }
 /* modificando la imagen */
 .disennio__card figure{
-    width: 100px;
-    height: 90px;
-
+    width: 70%;
 }
 
 .disennio__card img{
