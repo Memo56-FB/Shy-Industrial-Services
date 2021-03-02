@@ -1,3 +1,4 @@
+/* Seccion donde normalizo estilos */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -26,6 +27,7 @@ body{
     --warmGrey:#A2ACBD;
     --grey:#6E7888;
     --black:#201E1C;
+    --warmBlack:rgb(37, 37, 37);
     --warmBrown:#51373F;
     --brown:#240D14;
     --menuColor:radial-gradient(circle, #e76a2f, #c13d57, #7d3164, #352950, #061525);
@@ -40,10 +42,10 @@ a{
 li{
     list-style: none;
 }
-
 img{
     height: 100%;
 }
+
 /* REDES SOCIALES */
 .contact{
     background-color: var(--grey);
@@ -244,7 +246,7 @@ main{
 .container__cards .cards{
     flex:0 1 240px;
     height: 260px;
-    background-color: rgb(37, 37, 37);
+    background-color:var(--warmBlack);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -370,6 +372,35 @@ main{
 .disennio__card img{
     width: 100%;
 }
+
+/* SECCION DONDE ESTAN LOS SERVICIOS ANEXOS */
+.servicios-anexos{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--black);
+    color: var(--justWhite);
+    width: 100%;
+}
+.services__list-container ul{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+}
+.services__list-container a{
+    font-size: 2.2rem;
+    background-color:var(--warmBlack) ;
+    padding: 10px;
+    flex: 0 0 250px;
+    text-align: center;
+    margin: 15px;
+}
+
+
+
 
 
 
