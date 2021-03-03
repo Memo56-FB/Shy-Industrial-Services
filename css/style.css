@@ -178,7 +178,7 @@ main{
     height: auto;
     padding-top:220px;
     padding-bottom: 120px;
-    background-position: center;
+    background-position: bottom;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -186,15 +186,23 @@ main{
     display: none;
 }
 .f1{
+    transition: 1s;
     background-image: url("../assets/img/soldar2-large.jpg");
 }
 
 .f2{
+    transition: 1s;
     background-image: url("../assets/img/soldar-large.jpg"); 
 }
 
 .f3{
-    background-image: url("../assets/img/soldar3-large.jpg");
+    transition: 1s;
+    background-image: url("../assets/img/soldar6-large.jpg");
+}
+
+.f4{
+    transition: 1s;
+    background-image: url("../assets/img/soldar5-large.jpg");
 }
 
 .shy h1{
@@ -403,6 +411,7 @@ main{
 footer{
     color: var(--justWhite);
     display: flex;
+    flex-wrap: wrap;
     background-color:#3D4856 ;
     justify-content: center;
 }
@@ -411,7 +420,9 @@ footer a{
 }
 footer figure{
     width: 50px;
+    flex: 0 0 50px;
 }
+
 
 
 /* MEDIAS */

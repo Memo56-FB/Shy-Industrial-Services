@@ -1,3 +1,4 @@
+// CODIGO PARA QUE EL NAVBAR SE ESCONDA AL BAJAR Y SE MUESTRE AL SUBIR 
 let ubicationTop = window.pageYOffset;
 window.onscroll = ()=>{
     let displacement = window.pageYOffset;
@@ -12,23 +13,35 @@ window.onscroll = ()=>{
 } 
 
 
-// SCRIPT PARA QUE PRUEBEN CUAL FONDO LES GUSTA MAS 
+// CODIGO PARA QUE EL FONDO CAMBIE SOLO CADA 5 SEGUNDOS
 
-const btn = document.getElementById('btn');
-const shy = document.getElementById('shy')
 
-btn.onclick = ()=>{
+const shy = document.getElementById('shy');
+
+cambioImagen = ()=>{
         if(shy.classList.contains('f1')){
-            shy.classList.replace('f1','f2')
+            shy.classList.replace('f1','f2');
         }
         else if(shy.classList.contains('f2')){
-            shy.classList.replace('f2','f3')
+            shy.classList.replace('f2','f3');
+        }
+        else if(shy.classList.contains('f3')){
+            shy.classList.replace('f3','f4');
         }else{
-            shy.classList.replace('f3','f1')
+            shy.classList.replace('f4','f1');
         }
 }
 
-// SCRIPT PARA LAS REDES SOCIALES
+setInterval(() => {
+    cambioImagen() 
+}, 5000);
+
+
+
+
+
+
+// CODIGO PARA EL BOTON FLOTANTE DE REDES SOCIALES
 const contact = document.getElementById('contact')
 const socialMedia = document.getElementById('socialMedia')
 const svg = document.getElementById('svg')
