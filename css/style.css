@@ -46,67 +46,6 @@ img{
     height: 100%;
 }
 
-/* REDES SOCIALES */
-.contact{
-    background-color: var(--grey);
-    width: 200px;
-    height: 48px;
-    position: fixed;
-    bottom: 0;
-    left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 10;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom: 1px solid var(--black);
-    color: var(--justWhite);
-}
-svg{
-    fill: var(--justWhite);
-    cursor: pointer;
-}
-.contact figure{
-    width: 30px;
-    height: 30px;
-}
-.initial{
-    transition: .4s;
-    transform: rotate(0);
-}
-.rotate{
-    transition: .4s;
-    transform: rotate(180deg);
-}
-
-.social-media{
-    position: fixed;
-    bottom: -46px;
-    background-color: var(--softBlue);
-    display: flex;
-    z-index: 9;
-    width:200px;
-    justify-content: space-around;
-    padding: 10px;
-    left: 20px;
-}
-.social-media div{
-    width: 28px;
-    height: 28px;
-}
-
-
-.animation-up-contact{
-    transition: .4s;
-    transform: translateY(-43px);
-}
-.animation-down-contact{
-    transition: .4s;
-    transform: translateY(0);
-}
-
-
 
 /* PARTE DERECHA DONDE ESTA LA IMAGEN Y EL ESLOGAN DE LA EMPRESA */
 header{
@@ -145,8 +84,6 @@ header{
     font-size: 1.8rem;
 }
 
-
-
 /* BARRA DE NAVEGACION */
 header nav{
     flex:0 1 460px;
@@ -161,267 +98,6 @@ header nav ul{
     justify-content: space-between;
 }
 
-
-
-
-/* MAIN */
-main{
-    width: 100%;
-}
-/* SECCION DE LA PRESENTACION DE LA EMPRESA CON IMAGEN */
-.shy{
-    text-align: center;
-    color: var(--justWhite);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: auto;
-    padding-top:220px;
-    padding-bottom: 120px;
-    background-position: bottom;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.shy title{
-    display: none;
-}
-.f1{
-    transition: 1s;
-    background-image: url("../assets/img/soldar2-large.jpg");
-}
-
-.f2{
-    transition: 1s;
-    background-image: url("../assets/img/soldar-large.jpg"); 
-}
-
-.f3{
-    transition: 1s;
-    background-image: url("../assets/img/soldar6-large.jpg");
-}
-
-.f4{
-    transition: 1s;
-    background-image: url("../assets/img/soldar5-large.jpg");
-}
-
-.shy h1{
-    font-size: 3.8rem;
-    font-style: italic;
-    text-shadow: -.5px -.5px .5px #000, .5px .5px .5px #000, -.5px .5px .5px #000, .5px -.5px .5px #000;
-}
-.shy p{
-    text-shadow: -.5px -.5px .5px #000, .5px .5px .5px #000, -.5px .5px .5px #000, .5px -.5px .5px #000;
-    font-size: 1.8rem;
-}
-.shy p:first-of-type{
-    font-weight: bold;
-}
-
-
-
-/* SECCIÓN DE MAQUINADOS  */
-.maquinados{
-    width: 100%;
-    
-}
-.main__bg-container{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    background-color: var(--black);
-    padding-bottom: 20px;
-}
-
-.main__bg-container h1{
-    font-size: 3.2rem;
-    color: var(--justWhite);
-    padding: 5px;
-    border-radius: 4px;
-    margin-top: 20px;
-    position: relative;
-    z-index: 2;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.container__cards{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.container__cards .cards{
-    flex:0 1 240px;
-    height: 260px;
-    background-color:var(--warmBlack);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin: 20px;
-}
-.cards h2{
-    font-size: 1.8rem;
-    position: absolute;
-    top:-20px;
-    background-color: var(--blue);
-    color: var(--justWhite);
-    padding: 5px;
-    border-radius: 4px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.cards figure{
-    width: 70%;
-}
-.cards img{
-    width: 100%;
-    height: auto;
-}
-
-/* SECCION DE FABRICACIÓN DE EQUIPOS... */
-.fabricacion{
-    color: var(--justWhite);
-    height: auto;
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #474554;
-
-}
-.fabricacion__cards-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.fabricacion h1{
-    text-align: center;
-    font-size: 3.2rem;
-    border-radius: 4px;
-    margin-bottom: 20px;
-}
-
-.fabricacion__cards{
-    flex:0 1 280px;
-    height: 300px;
-    background-color: rgba(172,167,203, 0.10);
-    flex-direction: row;
-    margin: 20px;
-
-    border-radius: 4px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-
-}
-.fabricacion__cards figure{
-    /* width: 100%; */
-}
-.fabricacion__cards img{
-    /* height: 80%;
-    width: auto; */
-}
-
-/* SECCION DONDE ESTAN LOS PROGRAMAS QUE SE USAN EN SHY (DISEÑO)*/
-.disennio h1{
-    position: absolute;
-    font-size: 3.2rem;
-    z-index: 4;
-    color: var(--justWhite);
-    border-radius: 4px;
-    top: 20px;
-    text-shadow: -.5px -.5px .5px #000, .5px .5px .5px #000, -.5px .5px .5px #000, .5px -.5px .5px #000;
-
-}
-.disennio{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 70px;
-    padding-bottom: 20px;
-    background-image: url("../assets/img/design-img-section.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.disennio__card{
-    flex:0 0 700px;
-    height:auto;
-    min-height: 167px;
-    display: grid;
-    padding: 10px;
-    grid-template-columns: auto auto;
-    grid-template-rows:40px 80px 20px;
-    width: 50%;
-    align-items: center;
-    background-color: rgba(162,172,189, 0.75) ;
-    border-radius: 4px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    margin: 5px;
-    justify-items: center;
-}
-.disennio__card h2{
-    font-size: 1.8rem;
-    grid-row:1/2;
-}
-.disennio__card p{
-    grid-row:2/3;
-}
-
-.disennio__card a{
-    font-weight: bold;
-    color: var(--softOrange);
-    justify-self: start;
-    grid-row:3/4;
-}
-/* modificando la imagen */
-.disennio__card figure{
-    width: 50%;
-    grid-area:1/2/4/3 ;
-}
-
-.disennio__card img{
-    width: 100%;
-}
-
-/* SECCION DONDE ESTAN LOS SERVICIOS ANEXOS */
-.servicios-anexos{
-    padding: 20px 20px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--black);
-    color: var(--justWhite);
-    width: 100%;
-}
-.servicios-anexos h1{
-    font-size: 3.2rem;
-}
-.services__list-container{
-    width: 100%;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-}
-.services__list-container a{
-    font-size: 2.2rem;
-    background-color:var(--warmBlack) ;
-    padding: 10px;
-    flex: 0 0 250px;
-    text-align: center;
-    margin: 15px;
-}
-
 /* PIE DE PAGINA */
 footer{
     color: var(--justWhite);
@@ -429,18 +105,31 @@ footer{
     flex-wrap: wrap;
     background-color:#3D4856 ;
     justify-content: center;
+    padding-bottom: 20px;
+    position: relative;
 }
 footer a{
     margin: 20px;
+
 }
 footer figure{
     width: 50px;
     flex: 0 0 50px;
 }
+.copyright{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 10px;
+}
+.copyright p{
+    margin-left: 5px;
+}
+.copyright svg{
+    fill: var(--justWhite);
+}
 
-
-
-/* MEDIAS */
+/* Media para el header */
 @media (max-width:1050px){
     header{
         justify-content: center;
@@ -452,54 +141,4 @@ footer figure{
         margin: 0;
     }
 
-}
-
-@media(max-width:1100px){
-    .fabricacion h1{
-        font-size: 2.2rem;
-    }
-    .disennio h1{
-        font-size: 2.2rem;  
-    }
-}
-
-
-@media(max-width:720px){
-    .disennio__card{
-    flex:0 0 500px;
-    grid-template-columns: auto;
-    grid-template-rows:auto;
-    }
-    .disennio__card figure{
-        display: initial;
-        width: 100px;
-    }
-    .description-container{
-        margin-bottom: 5px;
-    }
-}
-@media(max-width:520px){
-    .disennio__card{
-    flex:0 0 280px;
-    grid-template-columns: 270px;
-    grid-template-rows:20px 140px 100px 15px;
-    }
-    .disennio__card h2{
-        grid-row:1/2;
-    }
-    .disennio__card p{
-        grid-row:2/3;
-    }
-    .disennio__card a{
-        grid-row:4/5;
-    }
-    .disennio__card figure{
-        grid-row:3/4;
-        grid-column: 1/1;
-        width: 100px;
-    }
-
-    .description-container{
-        margin-bottom: 5px;
-    }
 }

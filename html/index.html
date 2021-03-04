@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/icon/favicon-16x16.png">
 </head>
 <body>
@@ -22,8 +23,8 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
                 <li><a href="#">¿Quienes somos?</a></li>
             </ul>
         </nav>
@@ -204,8 +205,25 @@
         <a rel="noopener" target="_blank" href="https://api.whatsapp.com/send?phone=524271030650&fbclid=IwAR0lzj3ThtaaGsbXrFl4-DWSR_m_jNjaZRd1lph4xzvLChwlfzb3KRXa1k4" title="Enviar mensaje">
             <figure><img class="whatsapp" src="../assets/logo/whatsapp_icon.svg" alt="Icono de whatsapp"></figure>
         </a>
+        <div class="copyright">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 15.781c-2.084 0-3.781-1.696-3.781-3.781s1.696-3.781 3.781-3.781c1.172 0 2.306.523 3.136 1.669l1.857-1.218c-1.281-1.826-3.133-2.67-4.993-2.67-3.308 0-6 2.692-6 6s2.691 6 6 6c1.881 0 3.724-.859 4.994-2.67l-1.857-1.218c-.828 1.14-1.959 1.669-3.137 1.669z"/></svg>
+            <p>Shy Industrial Services  2021</p>
+        </div>
     </footer>
-
+    <script src="../js/index.js"></script>
     <script src="../js/scripts.js"></script>
+    <!-- Script para ejecutar funciones despues de que cargue por completo el DOOM -->
+    <script type="text/javascript">
+        function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "miscript.js";
+        document.body.appendChild(element);
+        }
+        if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+        else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+        else window.onload = downloadJSAtOnload;
+        </script>
 </body>
 </html>
