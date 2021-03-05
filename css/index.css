@@ -79,6 +79,7 @@ main{
     background-position: bottom;
     padding-left: 20px;
     padding-right: 20px;
+    background-image: url("../assets/img/soldar2-large.jpg"),url("../assets/img/soldar-large.jpg"),url("../assets/img/soldar6-large.jpg"),url("../assets/img/soldar5-large.jpg");
     animation: blink 20s infinite;
 }
 .shy title{
@@ -400,6 +401,7 @@ main{
 /* media para el cambio de fondo en celulares */
 @media(max-width:520px){
     .shy{
+        background-image: url("../assets/img/shy-mobile1.jpg"),url("../assets/img/shy-mobile2.jpg"),url("../assets/img/shy-mobile3.jpg"),url("../assets/img/shy-mobile4.jpg");
         animation: blink-small 25s infinite;
     }
     .disennio{
