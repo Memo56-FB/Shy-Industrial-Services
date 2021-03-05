@@ -271,3 +271,13 @@ main{
         flex: 0 0 280px;
     }
 }
+
+/* Media para fondos en celular */
+@media(max-width:520px){
+    .section-maquinado{
+        background-image: url("../assets/img/maquinado-mobile.jpg");
+    }
+    .section-clientes{
+        background-image: url("../assets/img/clientes-mobile.jpg");
+    }
+}

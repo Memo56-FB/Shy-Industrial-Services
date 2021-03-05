@@ -106,19 +106,19 @@ main{
 /* CAMBIO DE FONDO PARA CELULAR */
 @keyframes blink-small {
     0%{
-        background-image: url("../assets/img/soldar2-small.jpg");
+        background-image: url("../assets/img/shy-mobile1.jpg");
     }
     25%{
-        background-image: url("../assets/img/soldar-small.jpg"); 
+        background-image: url("../assets/img/shy-mobile2.jpg");
     }
     50%{
-        background-image: url("../assets/img/soldar6-small.jpg");
+        background-image: url("../assets/img/shy-mobile3.jpg");
     }
     75%{
-        background-image: url("../assets/img/soldar5-small.jpg");
+        background-image: url("../assets/img/shy-mobile4.jpg");
     }
     100%{
-        background-image: url("../assets/img/soldar2-small.jpg");
+        background-image: url("../assets/img/shy-mobile1.jpg");
     }
 }
 
@@ -401,5 +401,8 @@ main{
 @media(max-width:520px){
     .shy{
         animation: blink-small 25s infinite;
+    }
+    .disennio{
+        background-image: url("../assets/img/design-mobile.jpg");
     }
 }
