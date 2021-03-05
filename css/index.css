@@ -360,15 +360,15 @@ main{
     .disennio__card p{
         grid-row:2/3;
     }
-    .disennio__card a{
-        grid-row:4/5;
-    }
     .disennio__card figure{
         grid-row:3/4;
         grid-column: 1/1;
         width: 100px;
     }
-
+    .disennio__card a{
+        grid-row:4/5;
+    }
+    
     .description-container{
         margin-bottom: 5px;
     }
