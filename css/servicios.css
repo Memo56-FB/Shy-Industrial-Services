@@ -27,9 +27,16 @@ main{
 /* SECCION DONDE SE MUESTRAN LAS MAQUINAS CON LAS QUE CUENTA SHY */
 .section-maquinado{
     padding-top:170px ;
-    background-size: contain;
+    background-size: cover;
     color: white;
     background-color: var(--blue);
+    background-image: url("../assets/img/maquinado-large.jpg");
+    background-attachment: fixed;
+    background-position: center;
+}
+.section-maquinado h1{
+    text-shadow: -.5px -.5px .5px #000, .5px .5px .5px #000, -.5px .5px .5px #000, .5px -.5px .5px #000;
+
 }
 .articles-container{
     display: flex;
@@ -44,6 +51,7 @@ main{
     grid-template-rows: 30px auto;
     grid-template-columns: 200px auto;
     background-color: var(--softBlue);
+    /* background-color: rgba(12,44,60, .85); */
     color: var(--justWhite);
     padding: 10px;
     border-radius: 4px;
@@ -109,6 +117,18 @@ main{
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.soldadura__article span{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-image: url("../assets/icon/casco_soldar.png");
+    background-size: cover;
+}
+.soldadura__article h2{
+    margin-left: 30px;
+}
+
+
 .article__description-container{
     display: flex;
     flex-wrap: wrap;
@@ -123,9 +143,6 @@ main{
     flex: 0 0 400px;
     margin: .5rem;
 }
-
-
-
 
 .article__button{
     display: inline-block;
@@ -145,11 +162,7 @@ main{
     cursor: pointer;
 }
 
-
-
-
-
-/* animacion para los article */
+/* animacion para los article y el svg de flecha*/
 .soldadura__article-down{
     transition: .5s;
     height: auto;
@@ -165,6 +178,37 @@ main{
 .soldadura__article-up{
     transition: .5s;
     height: 150px;
+}
+
+
+/* SECCION DE CLIENTES SATISFECHOS */
+.section-clientes{
+    padding: 20px;
+    background-image: url("https://images.pexels.com/photos/2058130/pexels-photo-2058130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+.section-clientes h1{
+    text-align: center;
+    text-shadow: -.5px -.5px .5px #000, .5px .5px .5px #000, -.5px .5px .5px #000, .5px -.5px .5px #000;
+
+}
+.clientes__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.clientes__container p{
+    color: var(--justWhite);
+    flex:0 0 480px;
+    margin: .5rem;
+    background-color: rgba(37,37,37,.75) ;
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 10px;
+    
 }
 
 
@@ -198,6 +242,8 @@ main{
         width: 100%;
     }
 }
+
+/* Medias de la seccion soldadura */
 @media(max-width:950px){
     .soldadura__article{
         position: relative;
@@ -208,12 +254,20 @@ main{
     }
     
 }
+
 @media(max-width:660px){
     .soldadura__article{
         position: relative;
-        width: 300px;
+        width: 280px;
     }
     .article__description-container p{
-        flex: 0 0 270px;
+        flex: 0 0 250px;
+    }
+}
+
+/* Medias para la seccion de clientes satisfechos */
+@media(max-width:500px){
+    .clientes__container p{
+        flex: 0 0 280px;
     }
 }
