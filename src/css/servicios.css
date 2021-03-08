@@ -200,9 +200,9 @@ main{
     justify-content: center;
     
 }
-.clientes__container p{
+.clientes__container a{
     color: var(--justWhite);
-    flex:0 0 480px;
+    flex:0 0 470px;
     margin: .5rem;
     background-color: rgba(37,37,37,.75) ;
     border-radius: 4px;
@@ -267,7 +267,7 @@ main{
 
 /* Medias para la seccion de clientes satisfechos */
 @media(max-width:500px){
-    .clientes__container p{
+    .clientes__container a{
         flex: 0 0 280px;
     }
 }

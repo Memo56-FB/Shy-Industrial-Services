@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
 </head>
 <body>
+    <div class="loader"></div>
     <header id="navbar">
         <div class="header__img-container">
             <figure>
@@ -210,6 +211,12 @@
             <p>Shy Industrial Services  2021</p>
         </div>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        });
+    </script>
     <script src="js/index.js"></script>
     <script src="js/scripts.js"></script>
     <!-- Script para ejecutar funciones despues de que cargue por completo el DOOM -->

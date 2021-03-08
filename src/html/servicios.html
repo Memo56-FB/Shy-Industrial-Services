@@ -14,6 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/icon/favicon-16x16.png">
 </head>
 <body>
+    <div class="loader"></div>
     <header id="navbar">
         <div class="header__img-container">
             <figure>
@@ -158,26 +159,26 @@
         <section class="section-clientes">
             <h1>Clientes satisfechos</h1>
             <div class="clientes__container">
-                <p>• EIKA MEXICO, S.A DE C.V. </p>
-                <p>• UNIVERSIDAD AUTONOMA DE QUERETARO</p>
-                <p>• TECNOFARMA, S.A DE C.V.</p>
-                <p>• RS+Q </p>
-                <p>• METALWORKING STAMPING, S. DE R.L DE C.V.</p>
-                <p>• CONDUMEX, S.A DE C.V.</p>
-                <p>• BARCA DE MEXICO, S.A DE C.V.</p>
-                <p>• NUEVA TECNOLOGIA EN ALIMENTACION, S.A DE C.V.</p>
-                <p>• CPINGREDIENTES, S.A DE C.V.</p>
-                <p>• SMART PLATICS DE MEXICO.</p>
-                <p>• PZIPER DSING & MANUFACTURING MEXICO, S.A. DE C.V.</p>
-                <p>• MONARCH MANUFACTURING, S.A. DE C.V.</p>
-                <p>• THYSSENKRUPP SYSTEM ENGINEERING, S.A DE C.V.</p>
-                <p>• MORGAN TECHNICAL CERAMICS</p>
-                <p>• AMECO SERVICES, S. DE R.L DE C.V.</p>
-                <p>• CORDAFLEX, S.A DE C.V.</p>
-                <p>• SPARVEL, S. DE R.L DE C.V.</p>
-                <p>• MESSIER SERVICE AMERICA</p>
-                <p>• ECKERLE DE MÉXICO S.A. DE C.V.</p>
-                <p>• RESORTES Y PRODUCTOS METÁLICOS, S. DE R.L DE C.V.</p>
+               <a rel="noopener" target="_blank" href="https://www.eika.es/es">• EIKA MEXICO, S.A DE C.V. </a> 
+               <a rel="noopener" target="_blank" href="https://www.uaq.mx/">• UNIVERSIDAD AUTONOMA DE QUERETARO</a>
+                <a rel="noopener" target="_blank" href="https://mx.prvademecum.com/laboratorio/tecnofarma-235/">• TECNOFARMA, S.A DE C.V.</a>
+                <a rel="noopener" target="_blank" href="http://rcmasquimicos.com/">• RC+Q </a>
+                <a rel="noopener" target="_blank" href="http://www.metalwork.com.mx/">• METALWORKING STAMPING, S. DE R.L DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.condumex.com.mx/">• CONDUMEX, S.A DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.barcademexico.com/empresa.htm">• BARCA DE MEXICO, S.A DE C.V.</a>
+                <a rel="noopener" target="_blank" href="http://nupec.com.mx/">• NUEVA TECNOLOGIA EN ALIMENTACION, S.A DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.sanjuanense.com/detalles_C_P_I_Ingredientes__S__A__de_C__V_,1413,0,33.htm">• CPINGREDIENTES, S.A DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.webscomercio.com/Default.aspx?pyme=326767825">• SMART PLATICS DE MEXICO.</a>
+                <a rel="noopener" target="_blank" href="#">• PZIPER DSING & MANUFACTURING MEXICO, S.A. DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.encuentren.me/es/queretaro/empresa/monarch-manufacturing-sa-de-cv/perfil/1001/">• MONARCH MANUFACTURING, S.A. DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.thyssenkrupp-system-engineering.com/en/company/locations/mexico">• THYSSENKRUPP SYSTEM ENGINEERING, S.A DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.morgantechnicalceramics.com/">• MORGAN TECHNICAL CERAMICS</a>
+                <a rel="noopener" target="_blank" href="https://www.ameco.com/es">• AMECO SERVICES, S. DE R.L DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.cordaflex.com.mx/">• CORDAFLEX, S.A DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.encuentren.me/es/queretaro/empresa/sparvel/perfil/431/">• SPARVEL, S. DE R.L DE C.V.</a>
+                <a rel="noopener" target="_blank" href="http://pulsoindustrial.com/index.php/directorio/ubicacion/item/messier-services-americas-s-a-de-c-v">• MESSIER SERVICE AMERICA</a>
+                <a rel="noopener" target="_blank" href="http://www.eckerle-gruppe.com/mx/start_mx.html">• ECKERLE DE MÉXICO S.A. DE C.V.</a>
+                <a rel="noopener" target="_blank" href="https://www.pspring.com/peterson-spring-plant-queretaro-mexico/">• RESORTES Y PRODUCTOS METÁLICOS, S. DE R.L DE C.V.</a>
             </div>
         </section>
     </main>
@@ -202,7 +203,12 @@
             <p>Shy Industrial Services  2021</p>
         </div>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $(".loader").fadeOut("slow");
+        });
+    </script>
     <script src="../js/scripts.js"></script>
     <script src="../js/servicios.js"></script>
 </body>
