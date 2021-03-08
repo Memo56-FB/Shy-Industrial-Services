@@ -14,7 +14,10 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
 </head>
 <body>
-    <div class="loader"></div>
+    <div class="loader">
+        <div class="gear"></div> 
+    </div>
+</div>
     <header id="navbar">
         <div class="header__img-container">
             <figure>
@@ -26,7 +29,7 @@
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="html/servicios.html">Servicios</a></li>
-                <li><a href="#">¿Quienes somos?</a></li>
+                <li><a href="html/quienes-somos.html">¿Quienes somos?</a></li>
             </ul>
         </nav>
     </header>
@@ -219,18 +222,5 @@
     </script>
     <script src="js/index.js"></script>
     <script src="js/scripts.js"></script>
-    <!-- Script para ejecutar funciones despues de que cargue por completo el DOOM -->
-    <script type="text/javascript">
-        function downloadJSAtOnload() {
-        var element = document.createElement("script");
-        element.src = "miscript.js";
-        document.body.appendChild(element);
-        }
-        if (window.addEventListener)
-        window.addEventListener("load", downloadJSAtOnload, false);
-        else if (window.attachEvent)
-        window.attachEvent("onload", downloadJSAtOnload);
-        else window.onload = downloadJSAtOnload;
-        </script>
 </body>
 </html>
