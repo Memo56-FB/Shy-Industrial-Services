@@ -176,6 +176,9 @@ footer figure{
 }
 
 @media(max-width:504px){
+    *{
+        background-attachment: initial !important;
+    }
   h1{
     font-size: 2.4rem !important;
   }
