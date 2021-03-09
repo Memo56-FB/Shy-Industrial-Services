@@ -263,9 +263,16 @@ h1{
 }
 
 /* Medias para la seccion de clientes satisfechos */
-@media(max-width:500px){
+@media(max-width:504px){
     .clientes__container a{
         flex: 0 0 280px;
+    }
+    .section-maquinado{
+        background-size: contain;
+    }
+    body .section-clientes{
+        background-image: none;
+        background-color: var(--black);
     }
 }
 

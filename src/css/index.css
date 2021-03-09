@@ -398,18 +398,18 @@ main{
     .description-container{
         margin-bottom: 5px;
     }
-}
-
-/* media para el cambio de fondo en celulares */
-@media(max-width:520px){
+    /* media para el cambio de fondo en celulares */
     .shy{
         background-image: url("../assets/img/shy-mobile1.jpg");
         animation: none;
     }
     .disennio{
-        background-image: url("../assets/img/design-mobile.jpg");
+        background-image: none;
     }
 }
+
+
+
 
 /* media para el cambio de fondo en tabletas */
 @media(max-width:800px){
