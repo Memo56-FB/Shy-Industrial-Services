@@ -233,21 +233,23 @@ main{
 
 .fabricacion__cards{
     flex:0 1 280px;
-    height: 300px;
+    height: 280px;
     background-color: rgba(172,167,203, 0.10);
     flex-direction: row;
     margin: 20px;
-
+    padding: 10px;
     border-radius: 4px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
 }
 .fabricacion__cards figure{
-    /* width: 100%; */
+    width: 100%;
+    border-radius: 4px;
 }
 .fabricacion__cards img{
-    /* height: 80%;
-    width: auto; */
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
 }
 
 /* SECCION DONDE ESTAN LOS PROGRAMAS QUE SE USAN EN SHY (DISEÑO)*/
@@ -401,10 +403,17 @@ main{
 /* media para el cambio de fondo en celulares */
 @media(max-width:520px){
     .shy{
-        background-image: url("../assets/img/shy-mobile1.jpg"),url("../assets/img/shy-mobile2.jpg"),url("../assets/img/shy-mobile3.jpg"),url("../assets/img/shy-mobile4.jpg");
-        animation: blink-small 25s infinite;
+        background-image: url("../assets/img/shy-mobile1.jpg");
+        animation: none;
     }
     .disennio{
         background-image: url("../assets/img/design-mobile.jpg");
+    }
+}
+
+/* media para el cambio de fondo en tabletas */
+@media(max-width:800px){
+    .shy{
+        animation: none;
     }
 }
