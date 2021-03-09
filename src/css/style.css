@@ -130,6 +130,22 @@ header nav ul{
     display: flex;
     justify-content: space-between;
 }
+.selected{
+    transition: .5s;
+    border-bottom: 2px solid var(--orange);
+}
+.selected:hover{
+    transition: .5s;
+    border-color: var(--blue);
+}
+.hover{
+    transition: .5s;
+    border-bottom: 2px solid #3D4856;
+}
+.hover:hover{
+    transition: .5s;
+    border-bottom-color:var(--blue) ;
+}
 
 /* PIE DE PAGINA */
 footer{
