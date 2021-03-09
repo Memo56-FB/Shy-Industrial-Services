@@ -181,7 +181,7 @@ h1{
 /* SECCION DE CLIENTES SATISFECHOS */
 .section-clientes{
     padding: 20px;
-    background-image: url("https://images.pexels.com/photos/2058130/pexels-photo-2058130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("../assets/img/clientes-satisfechos.jpg");
     background-size: cover;
     background-attachment: fixed;
     min-height: 400px;

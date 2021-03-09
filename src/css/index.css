@@ -337,7 +337,7 @@ main{
     flex-flow: wrap row;
     justify-content: center;
 }
-.services__list-container a{
+.services__list-container p{
     font-size: 2.2rem;
     background-color:var(--warmBlack) ;
     padding: 10px;
@@ -415,5 +415,8 @@ main{
 @media(max-width:800px){
     .shy{
         animation: none;
+    }
+    .copyright{
+        bottom: 0;
     }
 }
