@@ -303,7 +303,7 @@ main{
 
 .disennio__card a{
     font-weight: bold;
-    color: var(--softOrange);
+    color: #002f98;
     justify-self: start;
     grid-row:3/4;
 }
