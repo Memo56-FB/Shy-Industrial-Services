@@ -209,7 +209,7 @@ h1{
     justify-content: center;
     
 }
-.clientes__container a{
+.clientes__container p{
     color: var(--justWhite);
     flex:0 0 470px;
     margin: .5rem;
