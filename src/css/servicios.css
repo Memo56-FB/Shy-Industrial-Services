@@ -276,7 +276,7 @@ h1{
 
 /* Medias para la seccion de clientes satisfechos */
 @media(max-width:504px){
-    .clientes__container a{
+    .clientes__container p{
         flex: 0 0 280px;
     }
     .section-maquinado{
