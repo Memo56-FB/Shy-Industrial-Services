@@ -1,7 +1,6 @@
 const btn = document.getElementById('btn') 
 const article = document.getElementById('article__description')
-
-btn.onclick = () => {
+btn.addEventListener('click',()=>{
     if(article.classList.contains('soldadura__article-up')){
         article.classList.replace('soldadura__article-up','soldadura__article-down')
         btn.classList.replace('btn-animation-off','btn-animation-on')
@@ -9,8 +8,7 @@ btn.onclick = () => {
         article.classList.replace('soldadura__article-down','soldadura__article-up')
         btn.classList.replace('btn-animation-on','btn-animation-off')
     }
-}
-
+});
 
 const btn2 = document.getElementById('btn2') 
 const article2 = document.getElementById('article__description2')
